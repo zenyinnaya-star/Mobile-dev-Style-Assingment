@@ -30,7 +30,7 @@ export default function MainContainer() {
                     headerTitleAlign: 'center',
                     headerLeft: () => (
                         <TouchableOpacity style={styles.leftButton} onPress={() => {}}>
-                            <Ionicons name="menu" size={28} color="white" />
+                            <Ionicons name="menu" size={30} color="white" />
                         </TouchableOpacity>
                     ),
                     headerRight: () => (
@@ -79,9 +79,9 @@ export default function MainContainer() {
 const styles = StyleSheet.create({
     headerTitle: {
         color: 'red',
-        fontWeight: '800',
-        fontSize: 18,
-        letterSpacing: 2,
+        fontWeight: '900',
+        fontSize: 50,
+        letterSpacing: 3,
     },
     leftButton: {
         marginLeft: 12,
@@ -90,9 +90,9 @@ const styles = StyleSheet.create({
         marginRight: 12,
     },
     avatar: {
-        width: 36,
-        height: 36,
-        borderRadius: 18,
+        width: 40,
+        height: 40,
+        borderRadius: 20,
         backgroundColor: 'yellow',
     },
 });

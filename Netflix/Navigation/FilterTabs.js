@@ -26,11 +26,14 @@ export default function FilterTabs({ selected, onSelect }) {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#000',
+    marginBottom: 16,
   },
   content: {
     paddingHorizontal: 14,
     paddingVertical: 10,
-    gap: 24,
+    gap: 45,
+    alignItems: 'center',
+    marginLeft: 14,
   },
   tab: {
     alignItems: 'center',

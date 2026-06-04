@@ -1,15 +1,17 @@
 import React from 'react';
 import { View, Text, ImageBackground, TouchableOpacity, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-
+// i craeted a dummy featured movie object to display in the hero banner. In a real app, this would come from an API
 const FEATURED = {
-  image: 'https://picsum.photos/500/700?random=99',
+  // i will use a stranger things image
+  image: "https://images.ctfassets.net/5iwbn7u1g2i4/OGkfp2qacEjXDDTSfVCAD/f47eaaa3dcd0ed5ff2655e768ba3b22d/image.png",
   title: 'Stranger Things',
   genres: ['Sci-Fi', 'Horror', 'Drama'],
 };
-
+// this function renders the hero banner at the top of the home screen. It displays a featured movie with its title, genres, and action buttons
 export default function HeroBanner() {
   return (
+    // ImageBackground is a component that allows us to set an image as the background of a view. We use it here to display the featured movie's image as the banner background
     <ImageBackground source={{ uri: FEATURED.image }} style={styles.container}>
       <View style={styles.overlay} />
 
@@ -17,6 +19,7 @@ export default function HeroBanner() {
         <Text style={styles.title}>{FEATURED.title}</Text>
 
         <View style={styles.genres}>
+          // i used the map function to iterate over the genres array and display each genre with a dot separator. The last genre does not have a dot after it
           {FEATURED.genres.map((g, i) => (
             <React.Fragment key={g}>
               <Text style={styles.genre}>{g}</Text>
@@ -28,7 +31,7 @@ export default function HeroBanner() {
         <View style={styles.buttons}>
           <TouchableOpacity style={styles.playBtn} activeOpacity={0.8}>
             <Ionicons name="play" size={18} color="#000" />
-            <Text style={styles.playText}>Play</Text>
+            <Text style={styles.playText}>Alert</Text>
           </TouchableOpacity>
 
           <TouchableOpacity style={styles.infoBtn} activeOpacity={0.8}>
@@ -43,8 +46,13 @@ export default function HeroBanner() {
 
 const styles = StyleSheet.create({
   container: {
-    height: 420,
+    height: 250,
     justifyContent: 'flex-end',
+    marginBottom: 20,
+    marginHorizontal: 16,
+    marginTop: 16,
+    borderRadius: 12,
+    overflow: 'hidden',
   },
   overlay: {
     ...StyleSheet.absoluteFillObject,
