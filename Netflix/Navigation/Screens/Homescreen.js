@@ -4,11 +4,10 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import HeroBanner from '../HeroBanner';
 import FilterTabs from '../FilterTabs';
 import MovieRows from '../MovieRows';
-
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 export default function Homescreen() {
   const [filter, setFilter] = useState('All');
   const insets = useSafeAreaInsets();
-
   return (
     <View style={{ flex: 1, backgroundColor: '#000' }}>
       <ScrollView
