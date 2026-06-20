@@ -42,7 +42,7 @@ export default function TabLayout() {
             index:     ['home',     'home-outline'],
             explore:   ['search',   'search-outline'],
             downloads: ['download', 'download-outline'],
-            likes:     ['heart',    'heart-outline'],
+            likes:     ['person-circle', 'person-circle-outline'],
           };
           const [active, inactive] = icons[route.name] ?? ['apps', 'apps-outline'];
           return <Ionicons name={(focused ? active : inactive) as any} size={size} color={color} />;
@@ -52,7 +52,7 @@ export default function TabLayout() {
       <Tabs.Screen name="index"     options={{ title: 'Home' }} />
       <Tabs.Screen name="explore"   options={{ title: 'Search' }} />
       <Tabs.Screen name="downloads" options={{ title: 'Download' }} />
-      <Tabs.Screen name="likes"     options={{ title: 'Likes' }} />
+      <Tabs.Screen name="likes"     options={{ title: 'My Netflix' }} />
     </Tabs>
   );
 }
