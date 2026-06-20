@@ -25,6 +25,14 @@ https://mysait-my.sharepoint.com/:i:/g/personal/heervirendrabhai_kachhia_edu_sai
 
 
 
+Part 2 
+Multi screen upadte and hoime screen stack navigation
+ search bar----https://youtu.be/F_QAgrKkR2Y?si=YSyTNMdfMxzTum4t
+ 
+
+
+
+
 
 
 
