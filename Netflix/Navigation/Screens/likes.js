@@ -10,7 +10,11 @@ import {
 import { Ionicons } from '@expo/vector-icons';
  
 const MY_LIST = [
-  { id: '1', uri: 'https://thf.bing.com/th/id/OIP.Q8RWnCsmJCVYfSLldWV12wHaKX?w=129&h=181&c=7&r=0&o=7&cb=thfc1falcon&dpr=1.3&pid=1.7&rm=3%27, title: 'Devil May Cry' },
+  {
+    id: '1',
+    uri: 'https://thf.bing.com/th/id/OIP.Q8RWnCsmJCVYfSLldWV12wHaKX?w=129&h=181&c=7&r=0&o=7&cb=thfc1falcon&dpr=1.3&pid=1.7&rm=3',
+    title: 'Devil May Cry',// IT WAS NOT NESTED WELL FIXED
+  },
 ];
  
 export default function ProfileScreen() {
