@@ -2,7 +2,7 @@
 
 Members---Zabdiel Maduakolam, Heer Virendrabhai and Dhruv Patel
 
-email>>>>>HeerVirendrabhai.Kachhia@edu.sait.ca, Zabdiel.Maduakolam@edu.sait.ca
+email>>>>>HeerVirendrabhai.Kachhia@edu.sait.ca, Zabdiel.Maduakolam@edu.sait.ca, DhruvRohitbhai.Patel@edu.sait.ca
 Refrence for building  1----videos
 https://youtu.be/u2jQS6HYju0?si=TuoH4Z5RXVXHoIh4
 https://www.youtube.com/live/-FNBxclKzH4?si=9Qiznq-cSK1NTDtn
