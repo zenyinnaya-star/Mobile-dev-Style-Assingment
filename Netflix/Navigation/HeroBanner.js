@@ -11,7 +11,7 @@ const FEATURED = {
 const showAlert = () => {
   Alert.alert(
     'Alert BRO',
-    'COMING SOON BRO',
+    'COMING SOON ',
     [
       {
         text: 'Cancel',
