@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
+<<<<<<< HEAD
 import { useThemeColor } from '../../hooks/use-theme-color'; // added for dark/light theme
  
 export default function DownloadScreen() {
@@ -12,13 +13,26 @@ export default function DownloadScreen() {
     <SafeAreaView style={[styles.container, { backgroundColor }]}>
       <View style={styles.header}>
         <Text style={[styles.headerTitle, { color: textColor }]}>Downloads</Text>
+=======
+ 
+export default function DownloadScreen() {
+ 
+  return (
+    <SafeAreaView style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.headerTitle}>Downloads</Text>
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
       </View>
       <View style={styles.body}>
         <View style={styles.iconCircle}>
           <Ionicons name="arrow-down" size={48} color="#888" />
         </View>
  
+<<<<<<< HEAD
         <Text style={[styles.description, { color: textColor }]}>
+=======
+        <Text style={styles.description}>
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
           Your plan supports up to 15 downloads per calendar month on 2 devices.
         </Text>
  

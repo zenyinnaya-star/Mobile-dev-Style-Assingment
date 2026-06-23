@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
@@ -15,10 +16,27 @@ function InnerLayout() {
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         </Stack>
         <StatusBar style={theme === 'dark' ? 'light' : 'dark'} />
+=======
+import { DarkTheme, ThemeProvider } from '@react-navigation/native';
+import { Stack } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import '../global.css';
+
+export default function RootLayout() {
+  return (
+    <SafeAreaProvider>
+      <ThemeProvider value={DarkTheme}>
+        <Stack> 
+          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        </Stack>
+        <StatusBar style="light" />
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
       </ThemeProvider>
     </SafeAreaProvider>
   );
 }
+<<<<<<< HEAD
 
 export default function RootLayout() {
   return (
@@ -27,3 +45,5 @@ export default function RootLayout() {
     </ThemeContextProvider>
   );
 }
+=======
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2

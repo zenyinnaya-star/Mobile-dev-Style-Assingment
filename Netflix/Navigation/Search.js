@@ -4,7 +4,10 @@ import {
   TouchableOpacity, Image, StyleSheet,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+<<<<<<< HEAD
 import { useThemeColor } from '../hooks/use-theme-color'; // added for dark/light theme
+=======
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
 
 const RECOMMENDATIONS = [
   { id: '1', title: 'The Polygamist',    badge: 'TOP 10', tag: 'Recently Added',  image: 'https://picsum.photos/seed/1/130/80' },
@@ -43,8 +46,11 @@ function ShowRow({ item, onPress }) {
 
 export default function SearchScreen() {
   const [query, setQuery] = useState('');
+<<<<<<< HEAD
   const backgroundColor = useThemeColor({}, 'background'); // bg changes with theme
   const textColor = useThemeColor({}, 'text'); // text changes with theme
+=======
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
 // user state that set the qurey by when user enter info it saved in the query then filterd then checks recommendations by title
   const filtered = RECOMMENDATIONS.filter(item =>//
     item.title.toLowerCase().includes(query.toLowerCase())
@@ -55,8 +61,13 @@ export default function SearchScreen() {
   };
 
   return (
+<<<<<<< HEAD
     <View style={[styles.container, { backgroundColor }]}>
       <Text style={[styles.pageTitle, { color: textColor }]}>Search</Text>
+=======
+    <View style={styles.container}>
+      <Text style={styles.pageTitle}>Search</Text>
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
       <View style={styles.searchBar}>
         <Ionicons name="search" size={18} color="#aaa" style={{ marginRight: 8 }} />
         <TextInput
@@ -67,7 +78,11 @@ export default function SearchScreen() {
           onChangeText={setQuery}
         />
       </View>
+<<<<<<< HEAD
       <Text style={[styles.sectionLabel, { color: textColor }]}>Recommended TV Shows & Movies</Text>
+=======
+      <Text style={styles.sectionLabel}>Recommended TV Shows & Movies</Text>
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
       <FlatList
         data={filtered}// the filterd data am rendring when u typr your stuff
         keyExtractor={item => item.id}// it informs the system on howq to basically quniquely identify each row from the filter 

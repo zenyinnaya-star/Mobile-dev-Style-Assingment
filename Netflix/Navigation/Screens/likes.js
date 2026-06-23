@@ -8,7 +8,10 @@ import {
   Image,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+<<<<<<< HEAD
 import { useThemeColor } from '../../hooks/use-theme-color'; // added for dark/light theme
+=======
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
  
 const MY_LIST = [
   {
@@ -19,10 +22,15 @@ const MY_LIST = [
 ];
  
 export default function ProfileScreen() {
+<<<<<<< HEAD
   const backgroundColor = useThemeColor({}, 'background'); // bg changes with theme
 
   return (
     <ScrollView style={[styles.container, { backgroundColor }]} contentContainerStyle={styles.content}>
+=======
+  return (
+    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
       {/* Profile header */}
       <View style={styles.profileRow}>
         <View style={styles.avatarCircle}>

@@ -2,11 +2,16 @@ import { Tabs } from 'expo-router';
 import React from 'react';
 import { Text, TouchableOpacity, Image } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+<<<<<<< HEAD
 import { useAppTheme } from '../../hooks/theme-context'; // added for toggle button
 
 export default function TabLayout() {
   const { theme, toggleTheme } = useAppTheme(); // added
 
+=======
+
+export default function TabLayout() {
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
   return (
     <Tabs
       screenOptions={({ route }) => ({
@@ -24,6 +29,7 @@ export default function TabLayout() {
           </TouchableOpacity>
         ),
         headerRight: () => (
+<<<<<<< HEAD
           <TouchableOpacity
             style={{ marginRight: 12, flexDirection: 'row', alignItems: 'center' }}
           >
@@ -42,6 +48,9 @@ export default function TabLayout() {
                 {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
               </Text>
             </TouchableOpacity>
+=======
+          <TouchableOpacity style={{ marginRight: 12 }}>
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
             <Image
               source={{ uri: 'https://avatarfiles.alphacoders.com/745/thumb-1920-7454.jpg' }}
               style={{ width: 36, height: 36, borderRadius: 18 }}
