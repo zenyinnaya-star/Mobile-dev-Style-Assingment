@@ -21,7 +21,7 @@ Refrence for  building 5------ Repository insight (Web dev)
 https://github.com/alhaifi-m
 Refrence for building  6 ---- Build snapshot
 https://mysait-my.sharepoint.com/:i:/g/personal/heervirendrabhai_kachhia_edu_sait_ca/IQCu93We8t_xR6Gt3Dp1DrAOASRqxQZ7uTjOOrnkf1OTmio?e=6mEuge
-Referece for building light and dark theam ---- video
+Referece for building light and dark theam 7 ---- video
 https://youtu.be/6BlFPa_MGNg?si=odxkHGpqytS2PEv0
 
 
