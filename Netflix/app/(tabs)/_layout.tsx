@@ -33,7 +33,6 @@ export default function TabLayout() {
           <TouchableOpacity
             style={{ marginRight: 12, flexDirection: 'row', alignItems: 'center' }}
           >
-            {/* changed icon button to simple text button */}
             <TouchableOpacity
               onPress={toggleTheme}
               style={{
