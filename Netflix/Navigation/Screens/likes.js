@@ -8,14 +8,29 @@ import {
   Image,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+<<<<<<< HEAD
+import { useThemeColor } from '../../hooks/use-theme-color'; // added for dark/light theme
+=======
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
  
 const MY_LIST = [
-  { id: '1', uri: 'https://thf.bing.com/th/id/OIP.Q8RWnCsmJCVYfSLldWV12wHaKX?w=129&h=181&c=7&r=0&o=7&cb=thfc1falcon&dpr=1.3&pid=1.7&rm=3%27, title: 'Devil May Cry' },
+  {
+    id: '1',
+    uri: 'https://thf.bing.com/th/id/OIP.Q8RWnCsmJCVYfSLldWV12wHaKX?w=129&h=181&c=7&r=0&o=7&cb=thfc1falcon&dpr=1.3&pid=1.7&rm=3',
+    title: 'Devil May Cry',// IT WAS NOT NESTED WELL FIXED
+  },
 ];
  
 export default function ProfileScreen() {
+<<<<<<< HEAD
+  const backgroundColor = useThemeColor({}, 'background'); // bg changes with theme
+
+  return (
+    <ScrollView style={[styles.container, { backgroundColor }]} contentContainerStyle={styles.content}>
+=======
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+>>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
       {/* Profile header */}
       <View style={styles.profileRow}>
         <View style={styles.avatarCircle}>

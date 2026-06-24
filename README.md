@@ -1,8 +1,8 @@
 
 
-Members---Zabdiel Maduakolam and Heer Virendrabhai 
+Members---Zabdiel Maduakolam, Heer Virendrabhai and Dhruv Patel
 
-email>>>>>HeerVirendrabhai.Kachhia@edu.sait.ca, Zabdiel.Maduakolam@edu.sait.ca
+email>>>>>HeerVirendrabhai.Kachhia@edu.sait.ca, Zabdiel.Maduakolam@edu.sait.ca, DhruvRohitbhai.Patel@edu.sait.ca
 Refrence for building  1----videos
 https://youtu.be/u2jQS6HYju0?si=TuoH4Z5RXVXHoIh4
 https://www.youtube.com/live/-FNBxclKzH4?si=9Qiznq-cSK1NTDtn
@@ -21,7 +21,8 @@ Refrence for  building 5------ Repository insight (Web dev)
 https://github.com/alhaifi-m
 Refrence for building  6 ---- Build snapshot
 https://mysait-my.sharepoint.com/:i:/g/personal/heervirendrabhai_kachhia_edu_sait_ca/IQCu93We8t_xR6Gt3Dp1DrAOASRqxQZ7uTjOOrnkf1OTmio?e=6mEuge
-
+Referece for building light and dark theam 7 ---- video
+https://youtu.be/6BlFPa_MGNg?si=odxkHGpqytS2PEv0
 
 
 
