@@ -8,29 +8,21 @@ import {
   Image,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-<<<<<<< HEAD
-import { useThemeColor } from '../../hooks/use-theme-color'; // added for dark/light theme
-=======
->>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
- 
+import { useThemeColor } from '../../hooks/use-theme-color';
+
 const MY_LIST = [
   {
     id: '1',
     uri: 'https://thf.bing.com/th/id/OIP.Q8RWnCsmJCVYfSLldWV12wHaKX?w=129&h=181&c=7&r=0&o=7&cb=thfc1falcon&dpr=1.3&pid=1.7&rm=3',
-    title: 'Devil May Cry',// IT WAS NOT NESTED WELL FIXED
+    title: 'Devil May Cry',
   },
 ];
- 
+
 export default function ProfileScreen() {
-<<<<<<< HEAD
-  const backgroundColor = useThemeColor({}, 'background'); // bg changes with theme
+  const backgroundColor = useThemeColor({}, 'background');
 
   return (
     <ScrollView style={[styles.container, { backgroundColor }]} contentContainerStyle={styles.content}>
-=======
-  return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
->>>>>>> 191a80c975d87619f037d221b2398b3188e7fae2
       {/* Profile header */}
       <View style={styles.profileRow}>
         <View style={styles.avatarCircle}>
@@ -48,8 +40,7 @@ export default function ProfileScreen() {
           <Ionicons name="notifications-outline" size={24} color="#fff" />
         </TouchableOpacity>
       </View>
- 
-     
+
       <TouchableOpacity style={styles.downloadCard}>
         <Ionicons name="download-outline" size={22} color="#fff" />
         <View style={styles.downloadCardText}>
@@ -58,12 +49,11 @@ export default function ProfileScreen() {
         </View>
         <Ionicons name="chevron-forward" size={20} color="#fff" />
       </TouchableOpacity>
- 
-     
+
       <View style={styles.sectionHeader}>
         <Text style={styles.sectionTitle}>My List</Text>
         <TouchableOpacity>
-          <Text style={styles.seeAll}>See All  &gt;</Text>
+          <Text style={styles.seeAll}>{'See All  >'}</Text>
         </TouchableOpacity>
       </View>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.listRow}>
@@ -71,19 +61,17 @@ export default function ProfileScreen() {
           <Image key={item.id} source={{ uri: item.uri }} style={styles.listThumb} />
         ))}
       </ScrollView>
- 
-     
+
       <Text style={styles.sectionTitle2}>Trailers You've Watched</Text>
       <View style={styles.trailersCard}>
         <Text style={styles.trailersText}>
           Find out what's coming soon and what everyone's talking about right now.
         </Text>
         <TouchableOpacity style={styles.discoverBtn}>
-          <Text style={styles.discoverBtnText}>Discover What's New &amp; Hot</Text>
+          <Text style={styles.discoverBtnText}>{'Discover What\'s New & Hot'}</Text>
         </TouchableOpacity>
       </View>
- 
-     
+
       <View style={styles.binocularsBox}>
         <View style={styles.binocularsCircle}>
           <Ionicons name="binoculars" size={64} color="#b06de8" />
@@ -92,7 +80,7 @@ export default function ProfileScreen() {
     </ScrollView>
   );
 }
- 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
